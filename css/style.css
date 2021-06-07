@@ -149,3 +149,21 @@ footer {
     transform: scale(1.1);
     
 }
+/* .titre{
+    font-weight: 400;
+} */
+.titre:hover{
+    color: #f04f77;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dot:hover span{
+    background: #f04f77 !important;
+}
+.owl-dot active{
+    background: #f04f77 !important;
+}
+.owl-dots active{
+    background: #f04f77;
+}

@@ -5,9 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myMenu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" />
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+
+
+
+
+
     
 </head>
 <body>
@@ -30,7 +37,7 @@
 
    
    
-    <section >
+    <!-- <section >
 
         <div class="row my-5 mx-auto justify-content-center ">
             <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6  p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('Petit-déjeuner')">
@@ -59,23 +66,67 @@
             
             
         </div>
-    </section>
+    </section> -->
+
+
+    <div class="carousel m-5">
+        <div class="mx-auto owl-carousel owl-theme">
+           
+              
+                <div class="item">
+                    <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('Petit-déjeuner')">
+                        <p class="text-capitalize h5 Petit-déjeuner"  >Petit-déjeuner</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('Salades')">
+                        <p class="text-capitalize h5 Salades"  >Salades</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('Entrées')">
+                        <p class="text-capitalize h5 Entrées"  >Entrées</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('sandwish')">
+                        <p class="text-capitalize h5 sandwish">sandwish</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('burguers')">
+                        <p class="text-capitalize h5 burguers">burguers</p>
+                    </div>
+                </div>
+           
+                <div class="item">
+                    <div class=" p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('desserts')">
+                        <p class="text-capitalize h5 desserts">desserts</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class=" p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="filterSelection('pizza')">
+                        <p class="text-capitalize h5 pizza">pizza</p>
+                    </div>
+                </div>
+
+
+         </div>
+</div>
 
 
 
 
 
-
-
-
+<!-- products -->
     <section class=" my-5">
-        <div class="row mx-auto ">
+        <div class="row mx-5 ">
             <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Petit-déjeuner allproducts" >
                 <div class="" style="overflow: hidden;width: 100%;height: 300px;">
                     <p class="d-none petit">Petit-déjeuner</p>
                     <img src="./images/Petit-dejeuner-marocain-riad-zidania.jpg"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;">Petit-déjeuner 
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;">Petit-déjeuner 
                     <smal class="font-weight-bold float-right text-capitalize">30Dhs
                     </p>
                 </p>
@@ -89,7 +140,7 @@
                     <p class="d-none petit">Salades</p>
                     <img src="./images/HMONG-Potluck-Chopped-Salad.webp"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> Salade de figues au chèvre et miel 
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> Salade de figues au chèvre et miel 
                     <smal class="font-weight-bold float-right text-capitalize">30Dhs
 
                     </p>
@@ -105,7 +156,7 @@
 
                     <img src="./images/green-salad-1200-1387.jpg"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> Salade norvégienne à l'avocat 
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> Salade norvégienne à l'avocat 
                     <smal class="font-weight-bold float-right text-capitalize">30Dhs
 
                     </p>
@@ -120,7 +171,7 @@
                     <p class="d-none petit">pizza</p>
                     <img src="./images/pizza_fresca.jpg"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> pizza Margherita  
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> pizza Margherita  
                     <smal class="font-weight-bold float-right text-capitalize">50Dhs
 
                     </p>
@@ -135,7 +186,7 @@
                     <p class="d-none petit">Entrées</p>
                     <img src="./images/FFH_Thanksgiving-Meal-Ideas-Entrees_650x488.jpg"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> tea  for breakfest 
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> tea  for breakfest 
                     <smal class="font-weight-bold float-right text-capitalize">30Dhs
 
                     </p>
@@ -150,7 +201,7 @@
                     <p class="d-none petit">pizza</p>
                     <img src="./images/pizza-1.jpg"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> pizza Napolitaine 
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> pizza Napolitaine 
                     <smal class="font-weight-bold float-right text-capitalize">40Dhs
 
                     </p>
@@ -165,7 +216,7 @@
                     <p class="d-none petit">pizza</p>
                     <img src="./images/Pizza-from-Scratch_EXPS_FT20_8621_F_0505_1_home.jpg"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> La quatre fromages 
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> La quatre fromages 
                     <smal class="font-weight-bold float-right text-capitalize">45Dhs
 
                     </p>
@@ -180,7 +231,7 @@
                     <p class="d-none petit">sandwish</p>
                     <img src="./images/KEBAB-scaled.jpg"  width="100%" height="300px"  class="img"   alt="">
                 </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> Sandwich aux deux jambons, oignon et tomates
+                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> Sandwich aux deux jambons, oignon et tomates
                     <smal class="font-weight-bold float-right text-capitalize">45Dhs
 
                     </p>
@@ -297,44 +348,46 @@
             </div>
         </div>
     </section>
+<!--end products -->
+
+
     <section class="my-5 bg-light py-3">
         <p class="h2 font-weight-bold text-capitalize text-center ">our store</p>
         <div class="container">
             <div class="row my-5">
-                <div class="col-md-6">
-                    <div class="row my-4">
-                        <div class="col-6 p-2">
+                
+                   
+                        <div class="col-3 p-2">
                             <img src="./images/categories/louis-hansel--9CjvlbUGhY-unsplash.jpg" width="100%" height="200px" class="round img"  alt="">
                         </div>
-                        <div class="col-6 p-2">
+                        <div class="col-3 p-2">
                             <img src="./images/categories/shawnanggg-nmpW_WwwVSc-unsplash.jpg" width="100%" height="200px" class="round img"  alt="">
 
                         </div>
-                        <div class="col-6 p-2">
+                        <div class="col-3 p-2">
                             <img src="./images/categories/zakaria-zayane-0uAVsDcyD0M-unsplash.jpg" width="100%"  height="200px"class="round img"  alt="">
 
                         </div>
-                        <div class="col-6 p-2">
+                        <div class="col-3 p-2">
                             <img src="./images/categories/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg" width="100%" height="200px" class="round img"  alt="">
 
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-5 " >
-                    <p class="text-capitalize h2 text-pink text-center my-4">réseaux sociaux</p>
-                    <p class="text-center h4">
-                        <i class="fab fa-facebook fa-lg"></i>
-                        <span>mymenu</span>
-                    </p>
-                    <p class="text-center h4">
-                        <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
-                        <span>mymenu</span>
-                    </p>
-                    <p class="text-center h4">
-                        <i class="fab fa-twitter fa-lg"></i>
-                        <span>mymenu</span>
-                    </p>
-                </div>
+
+                        <div class="col-12 my-5">
+                            <div class="row">
+                                <div class="col-3">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>mymenu
+                                </div>
+                                <div class="col-3">
+                                    
+                                </div>
+                                <div class="col-3"></div>
+                                <div class="col-3"></div>
+                            </div>
+                        </div>
+                    
+              
+                
             </div>
         </div>
     </section>
@@ -343,6 +396,39 @@
     <script src="./scripts/jquery-3.6.0.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
     <script src="./scripts/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 1500,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                300: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                800: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                }
+            }
+        })
+    })
+
+</script>
     <script >
       function filterSelection(c){
         
