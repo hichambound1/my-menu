@@ -1,0 +1,147 @@
+* {
+    font-size: 16px;
+}
+
+a {
+    list-style: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-control:focus {
+    border-color: #f04f77;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(236 82 130 / 25%);
+
+}
+
+.bg-prim {
+    background: linear-gradient(90deg, rgb(236, 82, 130) 0%, rgb(245, 101, 101) 100.11%);
+}
+
+.text-pink {
+    color: rgb(236, 82, 130);
+}
+
+.raduis {
+    border-radius: 32px;
+}
+
+.btn-prim {
+    text-decoration: none;
+    padding: 16px 52px 16px 52px;
+    background: linear-gradient(90deg, rgb(236, 82, 130) 0%, rgb(245, 101, 101) 100.11%);
+    border-radius: 32px;
+}
+
+.qr-text{
+    font-size: 2rem;
+}
+.menu-btn {
+    background: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border: 3px solid rgb(236, 82, 130);
+    padding: 8px 50px 8px 50px;
+    border-radius: 32px;
+    color: #f04f77;
+
+}
+.menu-btn-2{
+    background: linear-gradient(90deg, rgb(236, 82, 130) 0%, rgb(245, 101, 101) 100.11%);
+    font-size: 20px;
+    font-weight: bolder;
+    border: 3px solid rgb(236, 82, 130);
+    padding: 10px 42px 10px 42px;
+    border-radius: 32px;
+    color: #ffffff;
+}
+.menu-btn-2:hover{
+    background: #ffffff;
+    color: #f04f77;
+    border: 3px solid #f04f77;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.menu-btn:hover {
+    background-color: #f04f77;
+    color: white;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.max-width {
+    max-width: 1800px;
+    margin: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 71, 95);
+}
+
+.font-s{
+    font-size: 14px;
+}
+
+form div label {
+    color: rgb(243, 55, 115);
+}
+
+footer {
+    background-color: rgb(14, 14, 41)
+}
+
+@media (max-width:800px) {
+    .big-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:330px) {
+    .big-text {
+        font-size: 20px;
+    }
+}
+@media (max-width:767px) {
+    .hero-text{
+        text-align: center;
+    }
+
+    .btn-hero{
+        margin: auto;
+        display: block;
+    }
+}
+.round{
+    border-radius: 12px;
+}
+.categorie{
+    background: rgb(241, 241, 241);
+    
+}
+.categorie:hover{
+    background:linear-gradient(90deg, rgb(236, 82, 130) 0%, rgb(245, 101, 101) 100.11%);
+    color: white;
+   
+}
+.img{
+    transition: 1s;
+}
+.img:hover{
+    transform: scale(1.1);
+    
+}
