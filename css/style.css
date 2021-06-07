@@ -115,6 +115,7 @@ footer {
     .big-text {
         font-size: 20px;
     }
+    
 }
 @media (max-width:767px) {
     .hero-text{
@@ -124,6 +125,9 @@ footer {
     .btn-hero{
         margin: auto;
         display: block;
+    }
+    .phone-head{
+        font-size: 14px;
     }
 }
 .round{
