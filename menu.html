@@ -14,21 +14,19 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
-
-
-
-
-
+    <style>
+       
+    </style>
 </head>
 
 <body>
     <header>
-        <div class="back-dark w-100 h-100 ">
+        <div class="back-dark w-100 h-100 position-relative">
 
 
 
-            <div class=" row py-3  px-0  w-100">
-                <div class="col-12 text-center mt-5 ">
+            <div class=" row py-3  px-0  w-100 tilte-header">
+                <div class="col-12 text-center ">
                     <h2 class="text-uppercase text-white font-weight-bold ">elise restorent</h2>
                     <p class="text-white ">+212 6 43 56 76 78</p>
                 </div>
@@ -42,7 +40,7 @@
 
 
 
-    <div class="carousel m-5 ">
+    <div class=" m-5 ">
         <div class="mx-auto my-5 owl-carousel owl-theme">
 
 
@@ -90,319 +88,621 @@
                 </div>
             </div>
 
-
         </div>
     </div>
 
-
-
-
     <section class="container ">
         <div class="row mb-0">
-
             <p class="col-6 mx-auto d-flex justify-content-start  text-capitalize">
                 sort
             </p>
             <p class="col-6 d-flex mx-auto justify-content-end">
-                <i class="fa fa-list-ul mx-1" aria-hidden="true"></i>
-                <i class="fas fa-grip-horizontal mx-1 "></i>
+                <i class="fa fa-list-ul mx-2" onclick="cube()" aria-hidden="true"></i>
+                <i class="fas fa-grip-horizontal mx-2 " onclick="list()"></i>
             </p>
         </div>
-
         <hr class='m-1'>
     </section>
     <!-- products -->
     <section class=" my-5">
-        <div class="row mx-5 ">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Petit-déjeuner allproducts">
-                <div class="" style="overflow: hidden;width: 100%;height: 300px;">
-                    <p class="d-none petit">Petit-déjeuner</p>
-                    <img src="./images/Petit-dejeuner-marocain-riad-zidania.jpg" width="100%" height="300px" class="img"
-                        alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;">Petit-déjeuner
-                    <smal class="font-weight-bold float-right text-capitalize">30Dhs
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
+        <div class="row mx-5 RowAll">
 
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Salades allproducts">
-                <div class="" style="overflow: hidden;width: 100%;height: 300px;">
-                    <p class="d-none petit">Salades</p>
-                    <img src="./images/HMONG-Potluck-Chopped-Salad.webp" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> Salade de figues au
-                    chèvre et miel
-                    <smal class="font-weight-bold float-right text-capitalize">30Dhs
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
 
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
+                    <div class="div-grid" >
 
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Salades allproducts">
-                <p class="d-none petit">Salades</p>
-                <div class="" style="overflow: hidden;width: 100%;height: 300px;">
-
-                    <img src="./images/green-salad-1200-1387.jpg" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> Salade norvégienne à
-                    l'avocat
-                    <smal class="font-weight-bold float-right text-capitalize">30Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">pizza</p>
-                    <img src="./images/pizza_fresca.jpg" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> pizza Margherita
-                    <smal class="font-weight-bold float-right text-capitalize">50Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">Entrées</p>
-                    <img src="./images/FFH_Thanksgiving-Meal-Ideas-Entrees_650x488.jpg" width="100%" height="300px"
-                        class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> tea for breakfest
-                    <smal class="font-weight-bold float-right text-capitalize">30Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">pizza</p>
-                    <img src="./images/pizza-1.jpg" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> pizza Napolitaine
-                    <smal class="font-weight-bold float-right text-capitalize">40Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">pizza</p>
-                    <img src="./images/Pizza-from-Scratch_EXPS_FT20_8621_F_0505_1_home.jpg" width="100%" height="300px"
-                        class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> La quatre fromages
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">sandwish</p>
-                    <img src="./images/KEBAB-scaled.jpg" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3 titre" style="font-size: 20px;"> Sandwich aux deux
-                    jambons, oignon et tomates
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">sandwish</p>
-                    <img src="./images/33233734-gatsby-south-african-sandwich-different-varieties-of-gatsbys-include-masala-steak-chicken-polony-vie.jpg"
-                        width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;"> Sandwich aux figues
-                    fraîches, jambon sec et fromage
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">sandwish</p>
-                    <img src="./images/61042312-traditional-italian-sandwich-with-ham-and-cheese-served-warm-.jpg"
-                        width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;">Sandwich au thon facile et
-                    rapide
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">burguers</p>
-                    <img src="./images/imgx.jpg" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;">Beef Burgers
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">burguers</p>
-                    <img src="./images/Juicest-Burger-Everfeature.jpg.jpg" width="100%" height="300px" class="img"
-                        alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;">Portobello Mushroom Burgers
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">desserts</p>
-                    <img src="./images/image.webp" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;">Cheesecake
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">desserts</p>
-                    <img src="./images/157394.webp" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;">Dessert aux fruits.
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 my-5 Entrées allproducts">
-                <div style="overflow:hidden; width:100%; height: 300px;">
-                    <p class="d-none petit">desserts</p>
-                    <img src="./images/vegan-desserts.jpg" width="100%" height="300px" class="img" alt="">
-                </div>
-                <p class="font-weight-light  text-capitalize my-3" style="font-size: 20px;">Cake sucré
-                    <smal class="font-weight-bold float-right text-capitalize">45Dhs
-
-                </p>
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit expedita
-                    quaerat nobis.
-                </p>
-
-            </div>
-        </div>
-    </section>
-    <!--end products -->
-
-
-    <!-- <section class=" bg-light ">
-        <p class="h2 font-weight-bold text-capitalize text-center mt-3">our store</p>
-            <div class="container py-5" >
-           
-            <div class="carousel my-5">
-                    <div class=" owl-carousel owl-theme" id="owl-carousel2">
-
-
-                        <div class=" item  mx-4">
-                            <img src="./images/categories/louis-hansel--9CjvlbUGhY-unsplash.jpg" width=3200px" height="200px"
-                                class="round img" alt="">
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">Petit-déjeuner</p>
+                            <img class="img-item" src="./images/1619683030-01.png"  class="img" alt="">
                         </div>
-                        <div class=" item  mx-4">
-                            <img src="./images/categories/shawnanggg-nmpW_WwwVSc-unsplash.jpg" width="300px" height="200px"
-                                class="round img" alt="">
-
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">Petit-déjeuner
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                officiis reprehenderit expedita
+                                quaerat nobis. 
+                            </p>
                         </div>
-                        <div class=" item  mx-4">
-                            <img src="./images/categories/zakaria-zayane-0uAVsDcyD0M-unsplash.jpg" width="300px" height="200px"
-                                class="round img" alt="">
-
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
                         </div>
-                        <div class=" item  mx-4">
-                            <img src="./images/categories/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg" class="round img"
-                                height="200px" width="300px" alt="">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#exampleModal">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
 
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">Petit-dÃ©jeuner <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/1619683030-01.png" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis.
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
 
-    </section> -->
+                    <div class="div-grid" >
+
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">Salades</p>
+                            <img class="img-item" src="./images/1619683030-01.png"  class="img" alt="">
+                        </div>
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">salades
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                officiis reprehenderit expedita
+                                quaerat nobis. 
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#exampleModal">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">Petit-dÃ©jeuner <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/1619683030-01.png" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis.
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
+
+                    <div class="div-grid" >
+
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">Salades</p>
+                            <img class="img-item" src="./images/HMONG-Potluck-Chopped-Salad.webp"  class="img" alt="">
+                        </div>
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">salades
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                officiis reprehenderit expedita
+                                quaerat nobis. 
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#ex1">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ex1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">Salades <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/HMONG-Potluck-Chopped-Salad.webp" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis.
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
+
+                    <div class="div-grid" >
+
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">desserts</p>
+                            <img class="img-item" src="./images/image.webp"  class="img" alt="">
+                        </div>
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">desserts
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#ex5">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ex5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">desserts <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/image.webp" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis.
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
+
+                    <div class="div-grid" >
+
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">burguers</p>
+                            <img class="img-item" src="./images/imgx.jpg"  class="img" alt="">
+                        </div>
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">burguers
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#ex6">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ex6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">burguers <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/imgx.jpg" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
+
+                    <div class="div-grid" >
+
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">sandwish</p>
+                            <img class="img-item" src="./images/KEBAB-scaled.jpg"  class="img" alt="">
+                        </div>
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">sandwish
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                               
+                                
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#ex4">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ex4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">sandwish <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/KEBAB-scaled.jpg" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
+
+                    <div class="div-grid" >
+
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">pizza</p>
+                            <img class="img-item" src="./images/pizza-1.jpg"  class="img" alt="">
+                        </div>
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">pizza
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                               
+                                
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#ex0">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ex0" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">pizza <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/pizza-1.jpg" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-max-width">
+                <div class=" body-az my-4 p-3 Petit-déjeuner allproducts  rounded ">
+
+                    <div class="div-grid" >
+
+                        <div class="position-relative div-img">
+                            <p class="d-none petit">Entrées</p>
+                            <img class="img-item" src="./images/Petit-dejeuner-marocain-riad-zidania.jpg"  class="img" alt="">
+                        </div>
+                        <div style="padding: 0 10px 0 20px;">
+                            <p class="font-weight-light  text-capitalize my-3 " style="font-size: 20px;">Entrées
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                                expedita
+                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed officiis reprehenderit
+                               
+                                
+                            </p>
+                        </div>
+                        <div>
+                            <p class="font-weight-light  text-capitalize my-3  font-weight-bold"
+                                style="font-size: 20px;">
+                                30Dhs
+                            </p>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="rounded bg-color-red px-1 py-2 border-0" data-toggle="modal"
+                            data-target="#ex8">
+                            <i class="fa fa-plus text-white font-color" aria-hidden="true"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ex8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog-scrollable modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark w-100" id="exampleModalLabel">Entrées <span class="text-right float-right" style="font-size: 30px;">30£</span></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <img src="./images/Petit-dejeuner-marocain-riad-zidania.jpg" 
+                                                    class=" d-block mx-auto" width="300px" alt="">
+                                            </div>
+                                            <div class="col-12 text-dark">
+                                                Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
+                                                officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                esse sed officiis reprehenderit expedita
+                                                quaerat nobis. Lorem ipsum dolor sit amet Quidem illo, quod atque quasi
+                                                
+                                            </div>
+                                            
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+           
+            
+            
+
+            
+           
+
+        </div>
+    </section>
+
+    <script>
+        function cube() {
+            var RowAll = document.getElementsByClassName('RowAll');
+
+            var div = document.getElementsByClassName('col-max-width');
+
+            RowAll[0].style = 'flex-direction:column';
+            for(var i=0;i<div.length;i++){
+                div[i].style = 'max-width:100%';
+            }
+        }
+
+        function list() {
+            var RowAll = document.getElementsByClassName('RowAll');
+
+            var div = document.getElementsByClassName('col-max-width');
+
+            RowAll[0].style = 'flex-direction:row';
+            for(var i=0;i<div.length;i++){
+                div[i].style = 'max-width:100%';
+            }
+        }
+    </script>
+
 
     <section class="bg-light">
         <div class="container">
@@ -411,21 +711,19 @@
             </div>
             <div class="row py-5">
                 <div class="col-md-4 col-lg-4 col-sm-12">
-                    <img src="./images/categories/shawnanggg-nmpW_WwwVSc-unsplash.jpg"
-                        width="100%" alt="" class="round img">
+                    <img src="./images/categories/shawnanggg-nmpW_WwwVSc-unsplash.jpg" width="100%" alt=""
+                        class="round img">
                 </div>
                 <div class="col-md-8 col-lg-8 col-sm-12">
                     <div class="row d-inline">
                         <div class="col-12">
 
                             <div class="h4 my-5 text-capitalize">elise restaurant</div>
-
-                            <!-- <p class=" text-muted">Welcome to restaurant</p> -->
                         </div>
                         <div class="col-12">
                             <div class="row">
 
-                            
+
                                 <div class="col-sm-6">
                                     <p class="m-0">
 
@@ -433,22 +731,22 @@
                                     </p>
                                 </div>
                                 <div class="col-sm-6">
-                                        <p class="m-0">
-                                            <i class="fa fa-envelope mx-2" aria-hidden="true"></i>
-                                            client@demo.com
-                                        </p>
+                                    <p class="m-0">
+                                        <i class="fa fa-envelope mx-2" aria-hidden="true"></i>
+                                        client@demo.com
+                                    </p>
                                 </div>
                                 <div class="col-sm-6">
-                                        <p class="m-0">
-                                            <i class="fa fa-phone-square-alt mx-2" aria-hidden="true"></i>
-                                            +212 6 23 45 76 32
-                                        </p>
+                                    <p class="m-0">
+                                        <i class="fa fa-phone-square-alt mx-2" aria-hidden="true"></i>
+                                        +212 6 23 45 76 32
+                                    </p>
                                 </div>
                                 <div class="col-sm-6">
-                                        <p class="m-0">
-                                            <i class="fa fa-map-marker-alt mx-2" aria-hidden="true"></i>
-                                            N 34 RUE 15 QU، Safi 46000
-                                        </p>
+                                    <p class="m-0">
+                                        <i class="fa fa-map-marker-alt mx-2" aria-hidden="true"></i>
+                                        N 34 RUE 15 QU، Safi 46000
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -456,12 +754,12 @@
 
 
 
-                        </div>
-                    
+                    </div>
+
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     <script src="./scripts/jquery-3.6.0.min.js"></script>
