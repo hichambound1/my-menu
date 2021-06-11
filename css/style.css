@@ -226,9 +226,13 @@ header{
         display: grid;
     grid-template-columns: auto;
 }
+.RowAll{
+    margin-right:5px !important;
+    margin-left:5px !important;
+}
 .img-item {
     width: 200px;
-    max-height: 100px;
+    /* max-height: 100px; */
     position: relative;
     top: 0%;
     transform: translate(0, 0);
