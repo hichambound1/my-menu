@@ -679,94 +679,97 @@
         </div>
     </section>
 
-    <script>
-        function cube() {
-            var RowAll = document.getElementsByClassName('RowAll');
-
-            var div = document.getElementsByClassName('col-max-width');
-
-            RowAll[0].style = 'flex-direction:column';
-            for(var i=0;i<div.length;i++){
-                div[i].style = 'max-width:100%';
-            }
-        }
-
-        function list() {
-            var RowAll = document.getElementsByClassName('RowAll');
-
-            var div = document.getElementsByClassName('col-max-width');
-
-            RowAll[0].style = 'flex-direction:row';
-            for(var i=0;i<div.length;i++){
-                div[i].style = 'max-width:100%';
-            }
-        }
-    </script>
+   
 
 
     <section class="bg-light">
         <div class="container">
-            <div class="text-center h4 font-weight-bold py-4">
-                Owr Store
-            </div>
-            <div class="row py-5">
-                <div class="col-md-4 col-lg-4 col-sm-12">
-                    <img src="./images/categories/shawnanggg-nmpW_WwwVSc-unsplash.jpg" width="100%" alt=""
-                        class="round img">
+
+            <div class="row py-2">
+                <div class="col-lg-4 col-md-4 text-center col-sm-6 col-xs-12 mx-auto pt-4 my-auto">
+                    <img src="./images/categories/shawnanggg-nmpW_WwwVSc-unsplash.jpg" height="150px" alt=""
+                        class="round my-5">
                 </div>
-                <div class="col-md-8 col-lg-8 col-sm-12">
-                    <div class="row d-inline">
-                        <div class="col-12">
-
-                            <div class="h4 my-5 text-capitalize">elise restaurant</div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-
-
-                                <div class="col-sm-6">
-                                    <p class="m-0">
-
-                                        <i class="far fa-clock    mx-2"></i>6.00 - 00.00
-                                    </p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <p class="m-0">
+                <div class="col-lg-4 col-md-4   col-sm-6 col-xs-12 mx-auto pt-4 my-auto" style="    display: flex;
+                justify-content: center;">
+                   
+                    <div class="justify-content-center">
+                        
+                        <div class="h4 my-3 text-capitalize">elise restaurant</div>
+                        <p class="m-0 d-block">
+                            <i class="far fa-clock    mx-2"></i>6.00 - 00.00
+                        </p>
+                                    <p class="m-0 d-block">
                                         <i class="fa fa-envelope mx-2" aria-hidden="true"></i>
                                         client@demo.com
                                     </p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <p class="m-0">
+                                    <p class="m-0 d-block">
                                         <i class="fa fa-phone-square-alt mx-2" aria-hidden="true"></i>
                                         +212 6 23 45 76 32
                                     </p>
-                                </div>
-                                <div class="col-sm-6">
-                                    <p class="m-0">
-                                        <i class="fa fa-map-marker-alt mx-2" aria-hidden="true"></i>
+                                    <p class="m-0 d-block">
+                                        <i class="fa fa-map-marker-alt  mx-2"   aria-hidden="true"></i>
                                         N 34 RUE 15 QU، Safi 46000
                                     </p>
+                                    
                                 </div>
-                            </div>
-                        </div>
 
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center mx-auto pt-4 my-auto">
+                            
+                    <p class="text-capitalize font-weight-bold mx-2">follow us</p>
+                    <p class="m-0 d-block">
+                       <a href="#">
 
+                           <i class="fab fa-facebook   fa-2x social-icon rounded-pill    mx-2  p-2" ></i>
+                    </a> 
+                       <a href="#">
 
+                           <i class="fab fa-instagram  fa-2x social-icon rounded-pill    mx-2  p-2" ></i>
+                    </a> 
+                       <a href="#">
 
-                    </div>
+                           <i class="fab fa-twitter    fa-2x social-icon rounded-pill    mx-2  p-2" ></i>
+                    </a> 
+                       <a href="#">
 
+                           <i class="fab fa-whatsapp   fa-2x social-icon rounded-pill    mx-2  p-2" ></i>
+                    </a> 
+
+                    </p>
+            
                 </div>
             </div>
         </div>
 
     </section>
-
     <script src="./scripts/jquery-3.6.0.min.js"></script>
     <script src="./scripts/bootstrap.min.js"></script>
     <script src="./scripts/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+            function cube() {
+                var RowAll = document.getElementsByClassName('RowAll');
 
+                var div = document.getElementsByClassName('col-max-width');
+
+                RowAll[0].style = 'flex-direction:column';
+                for(var i=0;i<div.length;i++){
+                    div[i].style = 'max-width:100%';
+                }
+            }
+
+            function list() {
+                var RowAll = document.getElementsByClassName('RowAll');
+
+                var div = document.getElementsByClassName('col-max-width');
+
+                RowAll[0].style = 'flex-direction:row';
+                for(var i=0;i<div.length;i++){
+                    div[i].style = 'max-width:100%';
+                }
+            }
+        </script>
     <script>
         jQuery(document).ready(function ($) {
             $('#owl-carousel2').owlCarousel({

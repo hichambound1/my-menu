@@ -236,3 +236,12 @@ footer {
     margin-left: auto!important;
 }
 }
+.social-icon{
+    color: #ffffff;
+    background-color: #f04f77;
+}
+.social-icon:hover{
+    color: #f04f77;
+    border: 1px solid #f04f77;
+    background: none;
+}
