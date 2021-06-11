@@ -167,7 +167,7 @@ footer {
 .owl-dots active{
     background: #f04f77;
 }
-header{
+.header{
     height: 80vh;
     background: url('../images/33233734-gatsby-south-african-sandwich-different-varieties-of-gatsbys-include-masala-steak-chicken-polony-vie.jpg');
     background-repeat: no-repeat;
@@ -185,7 +185,6 @@ header{
 
 .img-item {
     width: 115px;
-    max-height: 110px;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -226,13 +225,8 @@ header{
         display: grid;
     grid-template-columns: auto;
 }
-.RowAll{
-    margin-right:5px !important;
-    margin-left:5px !important;
-}
 .img-item {
     width: 200px;
-    /* max-height: 100px; */
     position: relative;
     top: 0%;
     transform: translate(0, 0);
