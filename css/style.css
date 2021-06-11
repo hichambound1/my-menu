@@ -186,9 +186,9 @@ footer {
 .img-item {
     width: 115px;
     max-height: 110px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .body-az {
@@ -217,22 +217,27 @@ footer {
 .allproducts:hover .font-color{
     color: #f04f77 !important;
 }
+.allproducts .item-btn{
+    color: white;
+}
+.allproducts:hover .item-btn{
+    color:#f04f77;
+    background-color: #ffffff;
+}
+.dis-flex{
+    display: flex !important;
+    align-items: center;
+}
 .div-grid{
-    display: grid;
-    grid-template-columns: 115px 1fr 75px;
+    display: block;
+   
 }
 @media only screen and (max-width: 600px){
     .div-grid{
-        display: grid;
-    grid-template-columns: auto;
+        display: block;
+    
 }
-.img-item {
-    width: 200px;
-    max-height: 110px;
-    position: relative;
-    top: 0%;
-    transform: translate(0, 0);
-}
+
 .div-img{
     margin-right: auto!important;
     margin-left: auto!important;
