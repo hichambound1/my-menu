@@ -41,53 +41,50 @@
 
 
     <div class=" m-5 ">
-        <div class="mx-auto my-5 owl-carousel owl-theme">
-
-
+        <div class="mx-auto my-5 owl-carousel owl-theme" id="categorie-div">
+    
             <div class="item">
                 <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie "
-                    onclick="filterSelection('Petit-déjeuner')">
+                    onclick="active(this,'Petit-déjeuner')">
                     <p class="text-capitalize h5 Petit-déjeuner">Petit-déjeuner</p>
                 </div>
             </div>
             <div class="item">
                 <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie "
-                    onclick="filterSelection('Salades')">
+                    onclick="active(this,'Salades')">
                     <p class="text-capitalize h5 Salades">Salades</p>
                 </div>
             </div>
             <div class="item">
-                <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie "
-                    onclick="filterSelection('Entrées')">
+                <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie"
+                    onclick="active(this,'Entrées')">
                     <p class="text-capitalize h5 Entrées">Entrées</p>
                 </div>
             </div>
             <div class="item">
                 <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie "
-                    onclick="filterSelection('sandwish')">
+                    onclick="active(this,'sandwish')">
                     <p class="text-capitalize h5 sandwish">sandwish</p>
                 </div>
             </div>
             <div class="item">
                 <div class="  p-4 my-2 mr-2  round  text-center font-weight-bold categorie "
-                    onclick="filterSelection('burguers')">
+                    onclick="active(this,'burguers')">
                     <p class="text-capitalize h5 burguers">burguers</p>
                 </div>
             </div>
-
+    
             <div class="item">
                 <div class=" p-4 my-2 mr-2  round  text-center font-weight-bold categorie "
-                    onclick="filterSelection('desserts')">
+                    onclick="active(this,'desserts')">
                     <p class="text-capitalize h5 desserts">desserts</p>
                 </div>
             </div>
             <div class="item">
-                <div class=" p-4 my-2 mr-2  round  text-center font-weight-bold categorie "
-                    onclick="filterSelection('pizza')">
+                <div class=" p-4 my-2 mr-2  round  text-center font-weight-bold categorie " onclick="active(this,'pizza')">
                     <p class="text-capitalize h5 pizza">pizza</p>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -648,7 +645,38 @@
     </section>
 
    
-
+    <script>
+        var header = document.getElementById("categorie-div");
+        var btns = header.getElementsByClassName("categorie");
+    
+        function active(x, c) {
+    
+    
+    
+            for (var i = 0; i < btns.length; i++) {
+    
+                btns[i].classList.remove("active-categorie");
+    
+                var j = x.classList.add("active-categorie");
+    
+            }
+    
+            var petit = document.getElementsByClassName('petit');
+    
+            for (var i = 0; i < petit.length; i++) {
+    
+                if (petit[i].innerHTML == c) {
+    
+                    document.getElementsByClassName("allproduct")[i].style = "display:visible";
+                    document.getElementsByClassName("allproducts")[i].style = "display:visible";
+    
+                } else {
+                    document.getElementsByClassName("allproduct")[i].style = "display:none";
+                    document.getElementsByClassName("allproducts")[i].style = "display:none";
+                }
+            }
+        }
+    </script>
 
     <section class="bg-light">
         <div class="container">
