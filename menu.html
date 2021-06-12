@@ -755,6 +755,8 @@
                 for(var i=0;i<div.length;i++){
                     if (!(($(div[i]).css('display') == 'none'))){
                         div[i].style = 'max-width:100%;';
+                        document.getElementsByClassName("div-grid")[i].style = "display:flex;align-item:center !important";
+                        document.getElementsByClassName("item-btn")[i].style = "margin:auto;height:100%";
                     }else{
                         div[i].style = 'max-width:0%;';
                         document.getElementsByClassName("col-max-width")[i].style = "display:none !important";
@@ -770,6 +772,8 @@
                         
                         RowAll[0].style = 'flex-direction:row';
                         div[i].style = 'max-width:100%';
+                        document.getElementsByClassName("div-grid")[i].style = "display:block;";
+                        document.getElementsByClassName("item-btn")[i].style = "margin:auto;height:100%";
                     }
                     else{
                         
