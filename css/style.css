@@ -188,7 +188,8 @@ footer {
     max-height: 110px;
     position: relative;
     left: 50%;
-    transform: translate(-50%, 0);
+    margin-right: 10px;
+    transform: translate(-55%, 0);
 }
 
 .body-az {
@@ -220,6 +221,17 @@ footer {
 .allproducts .item-btn{
     color: white;
 }
+.info-prod{
+    text-align-last: auto;
+    max-width: 800px;
+}
+.prix{
+    color: #f04f77;
+}
+.allproducts:hover:hover .prix{
+   
+    color: #ffffff;
+}
 .allproducts:hover .item-btn{
     color:#f04f77;
     background-color: #ffffff;
@@ -246,13 +258,4 @@ footer {
     margin-right: auto!important;
     margin-left: auto!important;
 }
-}
-.social-icon{
-    color: #ffffff;
-    background-color: #f04f77;
-}
-.social-icon:hover{
-    color: #f04f77;
-    border: 1px solid #f04f77;
-    background: none;
 }
