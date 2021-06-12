@@ -147,7 +147,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/1619683030-01.png" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -214,7 +214,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/1619683030-01.png" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -281,7 +281,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/HMONG-Potluck-Chopped-Salad.webp" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -346,7 +346,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/image.webp" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -413,7 +413,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/imgx.jpg" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -479,7 +479,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/KEBAB-scaled.jpg" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -545,7 +545,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/pizza-1.jpg" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -611,7 +611,7 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <img src="./images/Petit-dejeuner-marocain-riad-zidania.jpg" 
-                                                    class=" d-block mx-auto my-3" width="300px" alt="">
+                                                    class=" d-block mx-auto my-3" width="200px" alt="">
                                             </div>
                                             <div class="col-12 text-dark">
                                                 Lorem ipsum dolor sit amet Quidem illo, quod atque quasi esse sed
@@ -645,38 +645,7 @@
     </section>
 
    
-    <script>
-        var header = document.getElementById("categorie-div");
-        var btns = header.getElementsByClassName("categorie");
     
-        function active(x, c) {
-    
-    
-    
-            for (var i = 0; i < btns.length; i++) {
-    
-                btns[i].classList.remove("active-categorie");
-    
-                var j = x.classList.add("active-categorie");
-    
-            }
-    
-            var petit = document.getElementsByClassName('petit');
-    
-            for (var i = 0; i < petit.length; i++) {
-    
-                if (petit[i].innerHTML == c) {
-    
-                    document.getElementsByClassName("allproduct")[i].style = "display:visible";
-                    document.getElementsByClassName("allproducts")[i].style = "display:visible";
-    
-                } else {
-                    document.getElementsByClassName("allproduct")[i].style = "display:none";
-                    document.getElementsByClassName("allproducts")[i].style = "display:none";
-                }
-            }
-        }
-    </script>
 
     <section class="bg-light">
         <div class="container">
@@ -744,6 +713,39 @@
     <script src="./scripts/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
+        var header = document.getElementById("categorie-div");
+        var btns = header.getElementsByClassName("categorie");
+    
+        function active(x, c) {
+    
+    
+    
+            for (var i = 0; i < btns.length; i++) {
+    
+                btns[i].classList.remove("active-categorie");
+    
+                var j = x.classList.add("active-categorie");
+    
+            }
+    
+            var petit = document.getElementsByClassName('petit');
+    
+            for (var i = 0; i < petit.length; i++) {
+    
+                if (petit[i].innerHTML == c) {
+    
+                    document.getElementsByClassName("allproduct")[i].style = "display:visible";
+                    document.getElementsByClassName("allproducts")[i].style = "display:visible";
+    
+                } else {
+                    document.getElementsByClassName("allproduct")[i].style = "display:none";
+                    document.getElementsByClassName("allproducts")[i].style = "display:none";
+                }
+            }
+        }
+    </script>
+    
+    <script>
             function cube() {
                 var RowAll = document.getElementsByClassName('RowAll');
 
@@ -751,50 +753,40 @@
 
                 RowAll[0].style = 'flex-direction:column';
                 for(var i=0;i<div.length;i++){
-                    div[i].style = 'max-width:100%';
-                    
-                }
-            }
-
-            function list() {
-                var RowAll = document.getElementsByClassName('RowAll');
-
-                var div = document.getElementsByClassName('col-max-width');
-
-                RowAll[0].style = 'flex-direction:row';
-                for(var i=0;i<div.length;i++){
-                    div[i].style = 'max-width:100%';
-                    
-                }
-            }
-        </script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $('#owl-carousel2').owlCarousel({
-                loop: true,
-
-                margin: 10,
-                nav: true,
-                autoplay: true,
-                autoplayTimeout: 2500,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    300: {
-                        items: 2
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 4
+                    if (!(($(div[i]).css('display') == 'none'))){
+                        div[i].style = 'max-width:100%;';
+                    }else{
+                        div[i].style = 'max-width:0%;';
+                        document.getElementsByClassName("col-max-width")[i].style = "display:none !important";
                     }
                 }
-            })
-        })
-    </script>
+            }
+            function list() {
+                var RowAll = document.getElementsByClassName('RowAll');
+                var div = document.getElementsByClassName('col-max-width');
+                for(var i=0;i<div.length;i++){
+
+                    if (!(($(div[i]).css('display') == 'none'))){
+                        console.log('ddd');
+                        RowAll[0].style = 'flex-direction:row';
+                        div[i].style = 'max-width:100%';
+                    }
+                    else{
+                        
+                        document.getElementsByClassName("col-max-width")[i].style = "display:none !important";
+                    }
+                }
+                
+
+                
+                // for(var i=0;i<div.length;i++){
+                    
+                    
+                // }
+                
+            }
+        </script>
+   
     <script>
         jQuery(document).ready(function ($) {
             $('.owl-carousel').owlCarousel({
@@ -833,13 +825,14 @@
             for (var i = 0; i < petit.length; i++) {
 
                 if (petit[i].innerHTML == c) {
-
-                    document.getElementsByClassName("allproduct")[i].style = "display:visible";
-                    document.getElementsByClassName("allproducts")[i].style = "display:visible";
+                    // document.getElementsByClassName("allproduct")[i].style = "display:visible";
+                    // document.getElementsByClassName("allproducts")[i].style = "display:visible";
+                    document.getElementsByClassName("col-max-width")[i].style = "display:visible";
 
                 } else {
-                    document.getElementsByClassName("allproducts")[i].style = "display:none";
-                    document.getElementsByClassName("allproduct")[i].style = "display:none";
+                    // document.getElementsByClassName("allproducts")[i].style = "display:none";
+                    // document.getElementsByClassName("allproduct")[i].style = "display:none";
+                    document.getElementsByClassName("col-max-width")[i].style = "display:none";
 
                 }
             }
